@@ -52,15 +52,6 @@ spread across multiple days, not a single dump.
 | 11 | Furqan | Screenshots + documentation polish |
 | 12 | Momin | Final review + README updates |
 
-## Before anyone pushes
-
-1. Each member needs **collaborator access** on the GitHub repo
-   (https://github.com/weebernom/student-record-management-system) — send
-   their GitHub usernames so they can be added, or have them fork + open a
-   pull request instead.
-2. Each member should set their own git identity locally so commits are
-   attributed correctly:
-   ```bash
    git config user.name "Your Name"
    git config user.email "your-github-email@example.com"
    ```
