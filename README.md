@@ -55,3 +55,11 @@ cmake --build build
 ```
 
 The resulting executable is `build/StudentRecordManagementSystem`.
+
+## Known issues
+
+- On Windows, `cmake -G Ninja -B build` can fail to locate wxWidgets with an
+  error like `wx/version.h file not found in C:/Program;C:/Program` if any
+  directory in `PATH` contains a space (e.g. `C:\Program Files\...`). Run the
+  configure step from a shell where MSYS2's `mingw64/bin` is placed before
+  any space-containing paths, or strip those paths for the command.
